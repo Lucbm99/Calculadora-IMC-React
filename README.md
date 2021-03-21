@@ -9,10 +9,15 @@ Para que você veja o código do projeto funcionando em sua máquina, serão dis
 Para isso, você irá precisar basicamente ter um editor de código em sua máquina (Visual Studio Code, Sublime Text, etc), um navegador para acesso (Google Chrome, Opera, Mozilla Firefox) e, para versionar o código, ter o Git instalado. Pode ser utilizado o prompt de comando de seu computador, da mesma forma. Além deles, será necessário ter o Node.js instalado e o gerenciador de pacotes NPM também.
 
 Links úteis: 
+
 VS Code: https://code.visualstudio.com/
+
 Git: https://git-scm.com/
+
 Sublime Text: https://www.sublimetext.com/
+
 NodeJS: https://nodejs.org/en/
+
 Npm: https://www.npmjs.com/
 
 ### 🔧 Como rodar o projeto? 

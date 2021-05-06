@@ -33,6 +33,7 @@ Npm: https://www.npmjs.com/
 ## 📦 Status da aplicação
 
 🚧  Finalizado 🚧
+
 Vídeo demo: https://youtu.be/P5ZneKk96Lw
 
 Link para acesso: https://calculadoraimc-lucbm99.vercel.app/

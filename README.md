@@ -28,11 +28,13 @@ Npm: https://www.npmjs.com/
 
 ## 3 - Feita a instalação do npm, é necessário digitar o comando npm start, para abrir a aplicação, que estará disponível em http://localhost:3000 em seu computador.
 
+![image](https://user-images.githubusercontent.com/45500959/117378767-75450e80-aeac-11eb-948b-1c3048dc8d17.png)
 
 ## 📦 Status da aplicação
 
 🚧  Finalizado 🚧
 Vídeo demo: https://youtu.be/P5ZneKk96Lw
+
 Link para acesso: https://calculadoraimc-lucbm99.vercel.app/
 
 

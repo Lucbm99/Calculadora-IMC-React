@@ -28,12 +28,16 @@ const Input = styled.input`
   padding: 10px;
   outline: 0;
 `;
-
+const Label = styled.label`
+  font-family: Verdana;
+  font-size: 20px;
+`;
 const Button = styled.button` 
   color: #fff;
   background-color: red;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
+  border-color: #111;
   width: 270px;
   padding: 10px;
   outline: 0;
@@ -42,7 +46,6 @@ const Button = styled.button`
 function App() {
   const [peso, setPeso] = useState();
   const [altura, setAltura] = useState();
-  const required = value => (value || typeof value === 'number' ? undefined : 'Required')
 
   function handleChange({ target }) {
     const { value, name } = target;
@@ -74,12 +77,14 @@ function App() {
     <Title>Calculadora de IMC</Title>
     <Content>Digite o seu peso e sua altura nos campos abaixo: </Content>
     <Border>
+      <Label>Peso: </Label>
       <Input type="number" required step="any" defaultValue={peso} 
       onChange={handleChange} placeholder="Digite seu peso..." name="peso"></Input><br/><br/>
+      <Label>Altura: </Label>
       <Input type="number"  
       step="any" defaultValue={altura} onChange={handleChange} 
       placeholder="Digite sua altura..." name="altura"></Input><br/><br/>
-      <Button onClick={fazerCalculo}>Calcular</Button>
+      <Button onClick={fazerCalculo}>Calcular IMC</Button>
     </Border>
     <hr/>
   </>
